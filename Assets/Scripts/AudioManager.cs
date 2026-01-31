@@ -76,6 +76,32 @@ public sealed class AudioManager : MonoBehaviour
         _sfx.PlayOneShot(clip);
     }
 
+    public void PlaySFXOnSource(AudioSource source, AudioClip clip, float volume = 1f, float pitch = 1f)
+    {
+        if (source == null || clip == null) return;
+
+        float prevVol = source.volume;
+        float prevPitch = source.pitch;
+
+        source.volume = Mathf.Clamp01(volume);
+        source.pitch = pitch;
+        source.PlayOneShot(clip);
+
+        source.volume = prevVol;
+        source.pitch = prevPitch;
+    }
+
+    public void PlaySFXRandomOnSource(AudioSource source, AudioClip[] clips, float volume = 1f, float pitchMin = 1f, float pitchMax = 1f)
+    {
+        if (source == null || clips == null || clips.Length == 0) return;
+
+        AudioClip clip = clips[UnityEngine.Random.Range(0, clips.Length)];
+        if (clip == null) return;
+
+        float pitch = UnityEngine.Random.Range(pitchMin, pitchMax);
+        PlaySFXOnSource(source, clip, volume, pitch);
+    }
+
     public void StopSFX()
     {
         StartCoroutine(FadeOutAndStop(_sfx, _sfxFadeOut));
