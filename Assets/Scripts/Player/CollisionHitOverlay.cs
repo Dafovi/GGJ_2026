@@ -36,7 +36,7 @@ public sealed class CollisionHitOverlay : MonoBehaviour
             objectHitable.Hit();
         }
 
-        if (_hit != null && _audioSource != null)
+        if (!_audioSource.isPlaying)
         {
             _audioSource.PlayOneShot(_hit);
         }

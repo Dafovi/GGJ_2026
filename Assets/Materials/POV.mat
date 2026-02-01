@@ -98,7 +98,7 @@ Material:
     - _AddPrecomputedVelocity: 0
     - _AlphaClip: 0
     - _AlphaToMask: 0
-    - _Back: 0.06729184
+    - _Back: 0.2244361
     - _Blend: 0
     - _BlendModePreserveSpecular: 1
     - _BottomStrength: 0.4
@@ -116,19 +116,19 @@ Material:
     - _EdgeWidthX: 0.407
     - _EdgeWidthY: 0.483
     - _EnvironmentReflections: 1
-    - _Front: 0.09806975
+    - _Front: 0.18569885
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _HitAmount: 0
-    - _Left: 0.09845071
+    - _Left: 0.2446573
     - _Metallic: 0
     - _Noise: 2
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Right: 0.14907901
+    - _Right: 0.9993707
     - _SideStrength: 0.913
     - _Smoothness: 0.5
     - _SmoothnessTextureChannel: 0
