@@ -1,16 +1,29 @@
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public sealed class MenuWrapNavigator : MonoBehaviour
 {
+    [SerializeField]
+    private Color _selectedColor;
+
+    [SerializeField]
+    private Color _deselectedColor;
+
+    [SerializeField]
+    private float _textScaleSelected = 1.2f;
+
     [SerializeField]
     private InputActionReference _move;
 
     [SerializeField]
     private List<Selectable> _items = new List<Selectable>();
+
+    [SerializeField]
+    private float _startDelay = 1f;
 
     [SerializeField]
     private int _startIndex = 0;
@@ -22,11 +35,34 @@ public sealed class MenuWrapNavigator : MonoBehaviour
     private float _deadzone = 0.2f;
 
     private int _currentIndex;
-    private bool _locked;
+    private bool _lockedY;
+    private bool _lockedX;
+
+    private void Awake()
+    {
+        for (int i = 0; i < _items.Count; i++)
+        {
+            Selectable item = _items[i];
+            if (item == null) continue;
+
+            if (item.TryGetComponent(out ReadTTSOnSelected tts))
+            {
+                tts.SetColors(_selectedColor, _deselectedColor);
+                tts.SetTextScaler(_textScaleSelected);
+                tts.ChangeTextColorAndScale(false);
+            }
+        }
+    }
 
     private void OnEnable()
     {
         _move.action.Enable();
+        StartNavigation();
+    }
+
+    private async void StartNavigation()
+    {
+        await Task.Delay(Mathf.RoundToInt(_startDelay * 1000));
 
         DisableUnityNavigation();
 
@@ -37,7 +73,8 @@ public sealed class MenuWrapNavigator : MonoBehaviour
     private void OnDisable()
     {
         _move.action.Disable();
-        _locked = false;
+        _lockedY = false;
+        _lockedX = false;
     }
 
     private void Update()
@@ -45,12 +82,17 @@ public sealed class MenuWrapNavigator : MonoBehaviour
         if (_items == null || _items.Count == 0) return;
 
         Vector2 input = _move.action.ReadValue<Vector2>();
-        float y = input.y;
 
-        if (_locked)
+        HandleVertical(input.y);
+        HandleRightClick(input.x);
+    }
+
+    private void HandleVertical(float y)
+    {
+        if (_lockedY)
         {
             if (Mathf.Abs(y) <= _deadzone)
-                _locked = false;
+                _lockedY = false;
 
             return;
         }
@@ -62,29 +104,61 @@ public sealed class MenuWrapNavigator : MonoBehaviour
 
         if (dir == 0) return;
 
-        _locked = true;
+        _lockedY = true;
 
         int next = WrapIndex(_currentIndex + dir, _items.Count);
         ForceSelectIndex(next);
     }
 
+    private void HandleRightClick(float x)
+    {
+        if (_lockedX)
+        {
+            if (Mathf.Abs(x) <= _deadzone)
+                _lockedX = false;
+
+            return;
+        }
+
+        if (x <= _threshold) return;
+
+        _lockedX = true;
+
+        Selectable current = _items[_currentIndex];
+        if (current == null) return;
+
+        if (current.TryGetComponent(out Button button))
+            button.onClick.Invoke();
+    }
+
     private void ForceSelectIndex(int index)
     {
+        if (_items == null || _items.Count == 0) return;
+
+        index = Mathf.Clamp(index, 0, _items.Count - 1);
+
+        Selectable previous = (_currentIndex >= 0 && _currentIndex < _items.Count) ? _items[_currentIndex] : null;
         _currentIndex = index;
 
         Selectable target = _items[_currentIndex];
         if (target == null) return;
 
+        if (previous != null && previous != target)
+        {
+            if (previous.TryGetComponent(out ReadTTSOnSelected prevTts))
+                prevTts.ChangeTextColorAndScale(false);
+        }
+
         if (EventSystem.current != null)
         {
-            if (EventSystem.current.currentSelectedGameObject == target.gameObject)
-                return;
-
             EventSystem.current.SetSelectedGameObject(null);
             EventSystem.current.SetSelectedGameObject(target.gameObject);
         }
 
         target.Select();
+
+        if (target.TryGetComponent(out ReadTTSOnSelected tts))
+            tts.ChangeTextColorAndScale(true);
     }
 
     private void DisableUnityNavigation()

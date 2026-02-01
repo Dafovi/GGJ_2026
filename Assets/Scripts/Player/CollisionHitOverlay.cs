@@ -20,5 +20,10 @@ public sealed class CollisionHitOverlay : MonoBehaviour
         if ((_hitMask.value & layerBit) == 0) return;
 
         _overlay.SetGlowColor(_hitColor);
+
+        if(hit.collider.TryGetComponent(out ObjectHitable objectHitable))
+        {
+            objectHitable.Hit();
+        }
     }
 }

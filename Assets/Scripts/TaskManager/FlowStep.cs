@@ -18,7 +18,7 @@ public class FlowStep
     [SerializeField]
     private AudioClip _clip;
 
-    [SerializeField]
+    [SerializeField, TextArea]
     private string _subtitle;
 
     [SerializeField]

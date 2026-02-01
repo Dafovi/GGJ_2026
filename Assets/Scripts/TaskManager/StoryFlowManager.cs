@@ -5,6 +5,9 @@ using UnityEngine;
 public sealed class StoryFlowManager : MonoBehaviour
 {
     [SerializeField]
+    private GameSignalBus _signalBus;
+
+    [SerializeField]
     private List<FlowStep> _steps;
 
     private int _index;
@@ -12,15 +15,16 @@ public sealed class StoryFlowManager : MonoBehaviour
 
     private bool _waitingSignal;
 
-    private void OnDestroy()
+    private void Awake()
     {
-        if (GameSignalBus.Instance != null)
-            GameSignalBus.Instance.OnSignal -= OnSignal;
+        if (_signalBus == null)
+            _signalBus = GameSignalBus.Instance;
     }
 
     private void OnEnable()
     {
-        GameSignalBus.Instance.OnSignal += OnSignal;
+        if (_signalBus != null)
+            _signalBus.OnSignal += OnSignal;
 
         if (_runCoroutine == null)
             _runCoroutine = StartCoroutine(Run());
@@ -28,15 +32,27 @@ public sealed class StoryFlowManager : MonoBehaviour
 
     private void OnDisable()
     {
+        if (_signalBus != null)
+            _signalBus.OnSignal -= OnSignal;
+
         if (_runCoroutine != null)
         {
             StopCoroutine(_runCoroutine);
             _runCoroutine = null;
         }
+
+        _waitingSignal = false;
     }
 
     private IEnumerator Run()
     {
+        if (_steps == null || _steps.Count == 0)
+        {
+            DialogueManager.Instance.HideDialogue();
+            _runCoroutine = null;
+            yield break;
+        }
+
         _index = Mathf.Clamp(_index, 0, _steps.Count);
 
         while (_index < _steps.Count)
@@ -60,23 +76,29 @@ public sealed class StoryFlowManager : MonoBehaviour
             }
             else if (step.WaitMode == FlowWaitMode.Signal)
             {
-                if (!string.IsNullOrWhiteSpace(step.SignalId) && GameSignalBus.Instance != null)
+                if (!string.IsNullOrWhiteSpace(step.SignalId) && _signalBus != null)
                 {
-                    if (!GameSignalBus.Instance.ConsumeLatched(step.SignalId))
+                    if (!_signalBus.ConsumeLatched(step.SignalId))
                     {
                         _waitingSignal = true;
-                        while (_waitingSignal)
-                            if(step.Source != null && !step.Source.isPlaying)
-                            DialogueManager.Instance.HideDialogue();
 
-                        yield return null;
+                        while (_waitingSignal)
+                        {
+                            if (step.Source != null && !step.Source.isPlaying)
+                                DialogueManager.Instance.HideDialogue();
+
+                            yield return null;
+                        }
                     }
                 }
             }
             else
             {
-                while (step.Source.isPlaying)
-                    yield return null;
+                if (step.Source != null)
+                {
+                    while (step.Source.isPlaying)
+                        yield return null;
+                }
             }
 
             _index++;
@@ -88,11 +110,13 @@ public sealed class StoryFlowManager : MonoBehaviour
 
     private void Play(FlowStep step)
     {
-        if (!string.IsNullOrWhiteSpace(step.Subtitle)) DialogueManager.Instance.ShowDialogue(step.Subtitle);
-        else DialogueManager.Instance.HideDialogue();
+        if (!string.IsNullOrWhiteSpace(step.Subtitle))
+            DialogueManager.Instance.ShowDialogue(step.Subtitle);
+        else
+            DialogueManager.Instance.HideDialogue();
 
         if (step.Clip == null) return;
-        if(step.Source != null) step.Source.PlayOneShot(step.Clip);
+        if (step.Source != null) step.Source.PlayOneShot(step.Clip);
     }
 
     private void OnSignal(string id)

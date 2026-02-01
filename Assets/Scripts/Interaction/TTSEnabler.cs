@@ -73,11 +73,11 @@ public sealed class TTSEnabler : MonoBehaviour
         Vector2 input = context.ReadValue<Vector2>();
         float horizontal = input.x;
 
-        if (horizontal > 0f)
+        if (horizontal < 0f)
         {
             Resolve(useTts: false);
         }
-        else if (horizontal < 0f)
+        else if (horizontal > 0f)
         {
             Resolve(useTts: true);
         }
