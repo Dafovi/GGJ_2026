@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
     public bool IsGamePaused { get; private set; } = false;
     public bool UseTTS { get; set; } = true;
 
+    public bool InstructionsReaded { get; set; } = false;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)

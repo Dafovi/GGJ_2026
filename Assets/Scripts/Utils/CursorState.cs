@@ -7,9 +7,10 @@ public class CursorState : MonoBehaviour
 
     [SerializeField]
     private bool _visible = false;
+
     private void OnEnable()
     {
         Cursor.lockState = _lockMode;
-        Cursor.visible = false;
+        Cursor.visible = _visible;
     }
 }

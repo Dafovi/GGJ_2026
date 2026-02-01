@@ -20,10 +20,13 @@ public sealed class MenuWrapNavigator : MonoBehaviour
     private InputActionReference _move;
 
     [SerializeField]
+    private InputActionReference _submit;
+
+    [SerializeField]
     private List<Selectable> _items = new List<Selectable>();
 
     [SerializeField]
-    private float _startDelay = 1f;
+    private float _startDelay = 0.2f;
 
     [SerializeField]
     private int _startIndex = 0;
@@ -37,6 +40,8 @@ public sealed class MenuWrapNavigator : MonoBehaviour
     private int _currentIndex;
     private bool _lockedY;
     private bool _lockedX;
+
+    private bool _prevSendNavEvents;
 
     private void Awake()
     {
@@ -56,7 +61,20 @@ public sealed class MenuWrapNavigator : MonoBehaviour
 
     private void OnEnable()
     {
+        if (EventSystem.current != null)
+        {
+            _prevSendNavEvents = EventSystem.current.sendNavigationEvents;
+            EventSystem.current.sendNavigationEvents = false;
+        }
+
         _move.action.Enable();
+
+        if (_submit != null)
+        {
+            _submit.action.Enable();
+            _submit.action.performed += OnSubmit;
+        }
+
         StartNavigation();
     }
 
@@ -72,9 +90,19 @@ public sealed class MenuWrapNavigator : MonoBehaviour
 
     private void OnDisable()
     {
+        if (_submit != null)
+        {
+            _submit.action.performed -= OnSubmit;
+            _submit.action.Disable();
+        }
+
         _move.action.Disable();
+
         _lockedY = false;
         _lockedX = false;
+
+        if (EventSystem.current != null)
+            EventSystem.current.sendNavigationEvents = _prevSendNavEvents;
     }
 
     private void Update()
@@ -124,11 +152,29 @@ public sealed class MenuWrapNavigator : MonoBehaviour
 
         _lockedX = true;
 
+        ClickCurrent();
+    }
+
+    private void OnSubmit(InputAction.CallbackContext ctx)
+    {
+        ClickCurrent();
+    }
+
+    private void ClickCurrent()
+    {
+        if (_currentIndex < 0 || _currentIndex >= _items.Count) return;
+
         Selectable current = _items[_currentIndex];
         if (current == null) return;
 
         if (current.TryGetComponent(out Button button))
             button.onClick.Invoke();
+        else
+        {
+            Button parentButton = current.GetComponentInParent<Button>();
+            if (parentButton != null)
+                parentButton.onClick.Invoke();
+        }
     }
 
     private void ForceSelectIndex(int index)
@@ -150,10 +196,7 @@ public sealed class MenuWrapNavigator : MonoBehaviour
         }
 
         if (EventSystem.current != null)
-        {
-            EventSystem.current.SetSelectedGameObject(null);
             EventSystem.current.SetSelectedGameObject(target.gameObject);
-        }
 
         target.Select();
 

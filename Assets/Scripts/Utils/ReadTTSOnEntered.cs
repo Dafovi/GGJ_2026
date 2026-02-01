@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class ReadTTSOnSelected : ReadTTS, ISelectHandler, IDeselectHandler, IPointerEnterHandler, IPointerExitHandler
+public sealed class ReadTTSOnSelected : ReadTTS, ISelectHandler, IDeselectHandler, IPointerEnterHandler, IPointerExitHandler
 {
     [SerializeField]
     private Button _button;
@@ -46,6 +46,9 @@ public class ReadTTSOnSelected : ReadTTS, ISelectHandler, IDeselectHandler, IPoi
 
     public void OnPointerEnter(PointerEventData eventData)
     {
+        if (EventSystem.current != null)
+            EventSystem.current.SetSelectedGameObject(gameObject);
+
         Read();
     }
 

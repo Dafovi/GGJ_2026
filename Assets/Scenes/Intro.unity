@@ -920,13 +920,19 @@ MonoBehaviour:
     _waitMode: 0
     _seconds: 0
     _signalId: 
+    _onStepFinished:
+      m_PersistentCalls:
+        m_Calls: []
   - _source: {fileID: 939502165}
     _clip: {fileID: 8300000, guid: 427a8e38c7b0a0d45a19704f86b05602, type: 3}
-    _subtitle: "(Jugador) \xA1Taxi! (silvido)x2 Manito."
+    _subtitle: "(Jugador) \xA1Taxi! (intento de silvido)x2 Manito."
     _delayBeforePlay: 0
     _waitMode: 0
     _seconds: 0
     _signalId: 
+    _onStepFinished:
+      m_PersistentCalls:
+        m_Calls: []
   - _source: {fileID: 939502165}
     _clip: {fileID: 8300000, guid: 1c5ca29bf28d4394aa908fb4b1996a6f, type: 3}
     _subtitle: "(Jugador) Manito venga h\xE1game un favor, pa' los Laches, pal CAI
@@ -935,6 +941,9 @@ MonoBehaviour:
     _waitMode: 0
     _seconds: 0
     _signalId: 
+    _onStepFinished:
+      m_PersistentCalls:
+        m_Calls: []
   - _source: {fileID: 1306540025}
     _clip: {fileID: 8300000, guid: 9f6c0a9468ddb7348bb2827e818e426b, type: 3}
     _subtitle: "(Taxista) \xBF\xA1Pa\xB4los Laches!?"
@@ -942,6 +951,9 @@ MonoBehaviour:
     _waitMode: 0
     _seconds: 0
     _signalId: 
+    _onStepFinished:
+      m_PersistentCalls:
+        m_Calls: []
   - _source: {fileID: 1306540025}
     _clip: {fileID: 8300000, guid: 89f043da29dc4b444ac7dce3e2014911, type: 3}
     _subtitle: "(Taxista) No mano, deje as\xED..."
@@ -949,6 +961,9 @@ MonoBehaviour:
     _waitMode: 0
     _seconds: 0
     _signalId: 
+    _onStepFinished:
+      m_PersistentCalls:
+        m_Calls: []
   - _source: {fileID: 1306540025}
     _clip: {fileID: 8300000, guid: 6c7c66526e9041740a91cc2e31a63270, type: 3}
     _subtitle: "(Taxista) B\xFAsquese otro, huev\xF3n, yo por all\xE1 no voy."
@@ -956,6 +971,9 @@ MonoBehaviour:
     _waitMode: 0
     _seconds: 0
     _signalId: 
+    _onStepFinished:
+      m_PersistentCalls:
+        m_Calls: []
   - _source: {fileID: 939502165}
     _clip: {fileID: 8300000, guid: f4ebd13abfd904e4e8a006eea745f193, type: 3}
     _subtitle: "(Jugador) \xA1Ah!, Jueputa huev\xF3n \xBFQu\xE9 hago?"
@@ -963,6 +981,9 @@ MonoBehaviour:
     _waitMode: 0
     _seconds: 0
     _signalId: 
+    _onStepFinished:
+      m_PersistentCalls:
+        m_Calls: []
   - _source: {fileID: 939502165}
     _clip: {fileID: 8300000, guid: d3b52d81617f1ae44a730428b974272d, type: 3}
     _subtitle: "(Jugador) Ve, esa camioneta de all\xE1 qu\xE9 huev\xF3n."
@@ -970,6 +991,9 @@ MonoBehaviour:
     _waitMode: 0
     _seconds: 0
     _signalId: 
+    _onStepFinished:
+      m_PersistentCalls:
+        m_Calls: []
   - _source: {fileID: 939502165}
     _clip: {fileID: 8300000, guid: 625e036307fc2dd46a1616e03a49e4b8, type: 3}
     _subtitle: "(Jugador) Ve, \xA1esos pirobos viene pa' ac\xE1 huev\xF3n!"
@@ -977,6 +1001,9 @@ MonoBehaviour:
     _waitMode: 0
     _seconds: 0
     _signalId: 
+    _onStepFinished:
+      m_PersistentCalls:
+        m_Calls: []
   - _source: {fileID: 2044580420}
     _clip: {fileID: 8300000, guid: 0bfd649598afd72438a8597b7cff5cf3, type: 3}
     _subtitle: "(Secuestrador 1) \xA1Quieto, quieto gonorrea o se lo estallo!"
@@ -984,6 +1011,9 @@ MonoBehaviour:
     _waitMode: 0
     _seconds: 0
     _signalId: 
+    _onStepFinished:
+      m_PersistentCalls:
+        m_Calls: []
   - _source: {fileID: 939502165}
     _clip: {fileID: 8300000, guid: 51669abd568ad044f9acf50f2fb3d269, type: 3}
     _subtitle: "(Jugador) S\xED mano, ya, todo bien... sapo hijue... todo bien, todo
@@ -994,6 +1024,9 @@ MonoBehaviour:
     _waitMode: 0
     _seconds: 0
     _signalId: 
+    _onStepFinished:
+      m_PersistentCalls:
+        m_Calls: []
   - _source: {fileID: 939502165}
     _clip: {fileID: 8300000, guid: bb538e4fadd523a4595a45b57d03b5e6, type: 3}
     _subtitle: "(Secuestrador 2) \xA1H\xE1gale r\xE1pido, manito, pirobo, mu\xE9valo
@@ -1002,6 +1035,9 @@ MonoBehaviour:
     _waitMode: 0
     _seconds: 0
     _signalId: 
+    _onStepFinished:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!4 &663357268
 Transform:
   m_ObjectHideFlags: 0

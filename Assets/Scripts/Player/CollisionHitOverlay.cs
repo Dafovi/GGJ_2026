@@ -12,6 +12,16 @@ public sealed class CollisionHitOverlay : MonoBehaviour
     [SerializeField]
     private Color _hitColor = Color.red;
 
+    [SerializeField]
+    private AudioClip _hit;
+
+    private AudioSource _audioSource;
+
+    private void Awake()
+    {
+        _audioSource = GetComponent<AudioSource>();
+    }
+
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         if (_overlay == null) return;
@@ -25,5 +35,15 @@ public sealed class CollisionHitOverlay : MonoBehaviour
         {
             objectHitable.Hit();
         }
+
+        if (_hit != null && _audioSource != null)
+        {
+            _audioSource.PlayOneShot(_hit);
+        }
+    }
+
+    public void ForcedHit()
+    {
+        _overlay.SetGlowColor(_hitColor);
     }
 }

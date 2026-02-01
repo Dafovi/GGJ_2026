@@ -34,6 +34,7 @@ public sealed class SceneTransitionController : MonoBehaviour
 
     private void OnFadeOutEnded()
     {
+        if (!_requested) return;
         SceneManager.LoadScene(_sceneToLoad);
     }
 }
