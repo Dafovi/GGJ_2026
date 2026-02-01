@@ -1,6 +1,7 @@
 using System;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.Events;
 
 public enum FlowWaitMode
 {
@@ -33,6 +34,9 @@ public class FlowStep
     [SerializeField]
     private string _signalId;
 
+    [SerializeField]
+    private UnityEvent _onStepFinished;
+
     public AudioSource Source => _source;
     public AudioClip Clip => _clip;
     public string Subtitle => _subtitle;
@@ -40,4 +44,6 @@ public class FlowStep
     public FlowWaitMode WaitMode => _waitMode;
     public float Seconds => _seconds;
     public string SignalId => _signalId;
+
+    public UnityEvent OnStepFinished => _onStepFinished;
 }

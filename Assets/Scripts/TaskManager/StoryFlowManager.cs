@@ -102,8 +102,8 @@ public sealed class StoryFlowManager : MonoBehaviour
             }
 
             _index++;
+            step?.OnStepFinished?.Invoke();
         }
-
         DialogueManager.Instance.HideDialogue();
         _runCoroutine = null;
     }
