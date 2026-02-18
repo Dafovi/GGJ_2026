@@ -511,7 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51a3456dddafe1a469831af909e11804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReadTTSOnEntered
-  _clip: {fileID: 8300000, guid: f4d0bf65e82791744b444baf90100cc5, type: 3}
+  _clip: {fileID: 8300000, guid: d532df8285a59cf4598bf85001d66261, type: 3}
   _delayBeforeReading: 0
   _button: {fileID: 149300593}
   _text: {fileID: 1962603538}
@@ -657,8 +657,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b8083d24c75a04d986f4a6967922ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuMusicController
-  _menuMusic: {fileID: 8300000, guid: cf86fb996fe6ea444ac12bc5a6cda31e, type: 3}
-  _loop: {fileID: 8300000, guid: 8fea45b5326dc6647841a4d420c289a0, type: 3}
+  _menuMusic: {fileID: 8300000, guid: 4b91b96a1b172c640a9452108cd0fb85, type: 3}
+  _loop: {fileID: 8300000, guid: 781d00bbac0364c4e9f26d084575a791, type: 3}
 --- !u!114 &311080172
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1242,7 +1242,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51a3456dddafe1a469831af909e11804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReadTTSOnEntered
-  _clip: {fileID: 8300000, guid: ebad0bce9db6e5e47b0165d83d9a796a, type: 3}
+  _clip: {fileID: 8300000, guid: db505d448959e734c80db06c16ec7f57, type: 3}
   _delayBeforeReading: 0.5
   _button: {fileID: 784641567}
   _text: {fileID: 10063137}
@@ -1340,55 +1340,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784641564}
   m_CullTransparentMesh: 1
---- !u!1 &832575517
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 832575519}
-  - component: {fileID: 832575518}
-  m_Layer: 0
-  m_Name: Global Volume
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &832575518
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832575517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: 10fc4df2da32a41aaa32d77bc913491c, type: 2}
---- !u!4 &832575519
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 832575517}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1186456691
 GameObject:
   m_ObjectHideFlags: 0
@@ -1441,7 +1392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51a3456dddafe1a469831af909e11804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReadTTSOnEntered
-  _clip: {fileID: 8300000, guid: cff0cccbd3000a04ba754ca14acde3dd, type: 3}
+  _clip: {fileID: 8300000, guid: 29d579291e9dcea49a768f4fd9c149a4, type: 3}
   _delayBeforeReading: 0.5
   _button: {fileID: 1186456694}
   _text: {fileID: 2109475321}
@@ -1695,7 +1646,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51a3456dddafe1a469831af909e11804, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReadTTSOnEntered
-  _clip: {fileID: 8300000, guid: 201b2e24e14b0264ca868b0576ba8157, type: 3}
+  _clip: {fileID: 8300000, guid: 6cfc2fdab1719534eb31a19664e0c833, type: 3}
   _delayBeforeReading: 0.5
   _button: {fileID: 1418746545}
   _text: {fileID: 16881764}
@@ -2410,8 +2361,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 96b8083d24c75a04d986f4a6967922ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuMusicController
-  _menuMusic: {fileID: 8300000, guid: cf86fb996fe6ea444ac12bc5a6cda31e, type: 3}
-  _loop: {fileID: 8300000, guid: 8fea45b5326dc6647841a4d420c289a0, type: 3}
+  _menuMusic: {fileID: 8300000, guid: 4b91b96a1b172c640a9452108cd0fb85, type: 3}
+  _loop: {fileID: 8300000, guid: 781d00bbac0364c4e9f26d084575a791, type: 3}
 --- !u!114 &1882419960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2731,7 +2682,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 330585546}
   - {fileID: 410087041}
-  - {fileID: 832575519}
   - {fileID: 1239255198}
   - {fileID: 1835039163}
   - {fileID: 1465190610}

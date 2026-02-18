@@ -639,7 +639,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f229c789ff320eb479d93cae1285f8c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReadTTS
-  _clip: {fileID: 8300000, guid: 52eeb8cca8bdb204c84068187cb8fef0, type: 3}
+  _clip: {fileID: 8300000, guid: db1b421928c62d8469efe19143d07eb6, type: 3}
   _delayBeforeReading: 1
 --- !u!1 &1054083334
 GameObject:
@@ -792,7 +792,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e6a2843a39f16a4482c631d1a99798a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TTSEnabler
-  _intro: {fileID: 8300000, guid: e1a7db23a6cbe4244b79c047b49e2e13, type: 3}
+  _intro: {fileID: 8300000, guid: 9e4bc8db525e4a3489eada1529e5c0ff, type: 3}
   _delayBeforeIntro: 1
   _waitTimeToContinue: 5
   _keys: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
@@ -1207,7 +1207,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f229c789ff320eb479d93cae1285f8c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReadTTS
-  _clip: {fileID: 8300000, guid: 53b99c36f92e47b4ab8e7bca3036901d, type: 3}
+  _clip: {fileID: 8300000, guid: 2f0ad8092c825f3438d82e6461c0d20d, type: 3}
   _delayBeforeReading: 1
 --- !u!114 &1704061348
 MonoBehaviour:

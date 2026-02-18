@@ -237,7 +237,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: cc1bd08318f2dd144b70b48f237c5920, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4e24e830941eea04e9453569bd25eb34, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -503,7 +503,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: ae9e53b14ee5ddf428b95a11b079901b, type: 3}
+  m_Resource: {fileID: 8300000, guid: 1569de59e886a9c4a86ae3576e607457, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -921,7 +921,7 @@ MonoBehaviour:
   _signalBus: {fileID: 2079091926}
   _steps:
   - _source: {fileID: 939502165}
-    _clip: {fileID: 8300000, guid: bc42da10c7b08164f93f8bf04b24384f, type: 3}
+    _clip: {fileID: 8300000, guid: 6b0cfc9985d6cac4db7e793fc2413954, type: 3}
     _subtitle: 
     _delayBeforePlay: 1
     _waitMode: 0
@@ -931,7 +931,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 939502165}
-    _clip: {fileID: 8300000, guid: 791e5d42a172ea14ca4d828ed769e391, type: 3}
+    _clip: {fileID: 8300000, guid: 5e08041a4ee6e9f4fbf5c224143c2521, type: 3}
     _subtitle: 
     _delayBeforePlay: 0
     _waitMode: 0
@@ -941,7 +941,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 2044580420}
-    _clip: {fileID: 8300000, guid: 3dd6d4d959c7f7d40b6dea8663eaaf9a, type: 3}
+    _clip: {fileID: 8300000, guid: 6ef82f398ceb8f44e88e7f718ee3bf60, type: 3}
     _subtitle: "(Loquito de la calle) Ushh, este hijueputa es que no va a dejar dormir
       o qu\xE9, pirobo."
     _delayBeforePlay: 0
@@ -952,7 +952,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 939502165}
-    _clip: {fileID: 8300000, guid: 4df6f8cc29f560d47b4e944d83ca4a91, type: 3}
+    _clip: {fileID: 8300000, guid: 5ac82484b72593f4685a54c8feb4bada, type: 3}
     _subtitle: 
     _delayBeforePlay: 0
     _waitMode: 0
@@ -962,7 +962,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1624346606}
-    _clip: {fileID: 8300000, guid: 7bb2b0260fb3e45488f86195ec72ea3d, type: 3}
+    _clip: {fileID: 8300000, guid: c891c33d4877b6549894c8b2fa12be85, type: 3}
     _subtitle: "(Loquito de la calle) Ushh, este pirobo qu\xE9, huev\xF3n."
     _delayBeforePlay: 0
     _waitMode: 0
@@ -972,7 +972,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 2064361832}
-    _clip: {fileID: 8300000, guid: 00a85dd4dcc90c94a9c676e4015b6121, type: 3}
+    _clip: {fileID: 8300000, guid: 93431e9702deeba409572a3bd5946148, type: 3}
     _subtitle: "(Loquito de la calle) Mano, \xBFQu\xE9 tiene en la cabeza? huev\xF3n."
     _delayBeforePlay: 1
     _waitMode: 0
@@ -982,7 +982,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1624346606}
-    _clip: {fileID: 8300000, guid: d895c56940bf28c4bb8e60a220a71ea1, type: 3}
+    _clip: {fileID: 8300000, guid: 9cf292ad2d0ac2541a93a2a11eb0b9d2, type: 3}
     _subtitle: (Loquito de la calle) Mano, yo le colaboro, pero me da sus tillos.
     _delayBeforePlay: 1
     _waitMode: 0
@@ -992,7 +992,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 939502165}
-    _clip: {fileID: 8300000, guid: 6cf562531d5b24a42861270826aba89f, type: 3}
+    _clip: {fileID: 8300000, guid: 7efae774c50f4ad46b5cb5326d04c136, type: 3}
     _subtitle: 
     _delayBeforePlay: 0
     _waitMode: 0
@@ -1002,7 +1002,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1624346606}
-    _clip: {fileID: 8300000, guid: bae32451764f5fa429de6800ec60ba91, type: 3}
+    _clip: {fileID: 8300000, guid: 7191947f2a2a65247ae3a853696aadb5, type: 3}
     _subtitle: "(Loquito de la calle) \xA1Me los da!"
     _delayBeforePlay: 0
     _waitMode: 0
@@ -1012,7 +1012,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 939502165}
-    _clip: {fileID: 8300000, guid: 3a23ab3ceb172e34cb6b69811561275f, type: 3}
+    _clip: {fileID: 8300000, guid: a606f18fef29104439eaeeebbd1b32d1, type: 3}
     _subtitle: 
     _delayBeforePlay: 0
     _waitMode: 1
@@ -1022,7 +1022,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1624346606}
-    _clip: {fileID: 8300000, guid: 75da392e9d0884341ac7c50b09945e02, type: 3}
+    _clip: {fileID: 8300000, guid: 4dd132e8b50819c4c897f99c326847f9, type: 3}
     _subtitle: (Loquito de la calle) Breve, pirobo, ya lo dijo, ya lo dijo
     _delayBeforePlay: 0
     _waitMode: 0
@@ -1186,7 +1186,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 24839552847b39d42a6fff529c946d39, type: 3}
+  m_Resource: {fileID: 8300000, guid: 5190ad0d11f5f4e45a4640ad7eb62113, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1315,7 +1315,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -2130647215566035855, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 4d47ae43fd3e16547b08b0a8c4c4ac3d, type: 3}
+  m_Resource: {fileID: 8300000, guid: fbc9b227b7fe38042b36b4e886e99231, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1553,7 +1553,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f229c789ff320eb479d93cae1285f8c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReadTTS
-  _clip: {fileID: 8300000, guid: 2c1c8c85d64ffdb4e9da496a6fc8471e, type: 3}
+  _clip: {fileID: 8300000, guid: a0baef66cd920a040a536203cd4aefd1, type: 3}
   _delayBeforeReading: 0.5
 --- !u!1 &939502163
 GameObject:
@@ -2582,7 +2582,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 20c503275ef6480409636777935c339e, type: 3}
+  m_Resource: {fileID: 8300000, guid: d5b9f5fd1cc3a9a4e916fd87f7b6f7ed, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2711,7 +2711,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 79c5fa22082e010418ce6abcce4b05d7, type: 3}
+  m_Resource: {fileID: 8300000, guid: 68eeb68d584daf143b22cc851492d55f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2964,7 +2964,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 6707903642912775197, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: cfb68782250b02f4281a83111ba4b137, type: 3}
+  m_Resource: {fileID: 8300000, guid: 325e18ffdc717f845b651f8c205832d1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.925
   m_Pitch: 1

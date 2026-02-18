@@ -366,7 +366,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: ae9e53b14ee5ddf428b95a11b079901b, type: 3}
+  m_Resource: {fileID: 8300000, guid: 1569de59e886a9c4a86ae3576e607457, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -495,7 +495,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: f65ad2f2f3b564c4fb35a686afd22bfd, type: 3}
+  m_Resource: {fileID: 8300000, guid: 8fd4e8e084e6ba545a0595ee4be7573b, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -913,7 +913,7 @@ MonoBehaviour:
   _signalBus: {fileID: 2079091926}
   _steps:
   - _source: {fileID: 939502165}
-    _clip: {fileID: 8300000, guid: 88afd6693df55f04c809f7ff6dcccb14, type: 3}
+    _clip: {fileID: 8300000, guid: 90a3e8c7afe101b44aeef6f4087fe403, type: 3}
     _subtitle: "(Jugador) No mano; yo estoy muy cansado, m\xE1s bien me voy pa' la
       casa ya."
     _delayBeforePlay: 0.5
@@ -924,7 +924,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 939502165}
-    _clip: {fileID: 8300000, guid: 427a8e38c7b0a0d45a19704f86b05602, type: 3}
+    _clip: {fileID: 8300000, guid: 1dade7855b032244fbfacba4dc1b06ea, type: 3}
     _subtitle: "(Jugador) \xA1Taxi! (intento de silvido)x2 Manito."
     _delayBeforePlay: 0
     _waitMode: 0
@@ -934,7 +934,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 939502165}
-    _clip: {fileID: 8300000, guid: 1c5ca29bf28d4394aa908fb4b1996a6f, type: 3}
+    _clip: {fileID: 8300000, guid: 638f4e25d371c6e418d33982d6214e0d, type: 3}
     _subtitle: "(Jugador) Manito venga h\xE1game un favor, pa' los Laches, pal CAI
       de los Laches."
     _delayBeforePlay: 1
@@ -945,7 +945,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1306540025}
-    _clip: {fileID: 8300000, guid: 9f6c0a9468ddb7348bb2827e818e426b, type: 3}
+    _clip: {fileID: 8300000, guid: fbf5e185d69025b45a4d9624e421f43f, type: 3}
     _subtitle: "(Taxista) \xBF\xA1Pa\xB4los Laches!?"
     _delayBeforePlay: 0
     _waitMode: 0
@@ -955,7 +955,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1306540025}
-    _clip: {fileID: 8300000, guid: 89f043da29dc4b444ac7dce3e2014911, type: 3}
+    _clip: {fileID: 8300000, guid: 175f632f378bc084c8c792a2934c0d36, type: 3}
     _subtitle: "(Taxista) No mano, deje as\xED..."
     _delayBeforePlay: 0
     _waitMode: 0
@@ -965,7 +965,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1306540025}
-    _clip: {fileID: 8300000, guid: 6c7c66526e9041740a91cc2e31a63270, type: 3}
+    _clip: {fileID: 8300000, guid: 1c8b9b86ccc96624f810bd65e1841440, type: 3}
     _subtitle: "(Taxista) B\xFAsquese otro, huev\xF3n, yo por all\xE1 no voy."
     _delayBeforePlay: 0
     _waitMode: 0
@@ -975,7 +975,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 939502165}
-    _clip: {fileID: 8300000, guid: f4ebd13abfd904e4e8a006eea745f193, type: 3}
+    _clip: {fileID: 8300000, guid: c9aad61fff036a44b834b7347f45de26, type: 3}
     _subtitle: "(Jugador) \xA1Ah!, Jueputa huev\xF3n \xBFQu\xE9 hago?"
     _delayBeforePlay: 1
     _waitMode: 0
@@ -985,7 +985,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 939502165}
-    _clip: {fileID: 8300000, guid: d3b52d81617f1ae44a730428b974272d, type: 3}
+    _clip: {fileID: 8300000, guid: 0282ca39ae19a1b4caf8b5af8758987d, type: 3}
     _subtitle: "(Jugador) Ve, esa camioneta de all\xE1 qu\xE9 huev\xF3n."
     _delayBeforePlay: 0
     _waitMode: 0
@@ -995,7 +995,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 939502165}
-    _clip: {fileID: 8300000, guid: 625e036307fc2dd46a1616e03a49e4b8, type: 3}
+    _clip: {fileID: 8300000, guid: 1a1a36e73010fbb4180144ae70905acc, type: 3}
     _subtitle: "(Jugador) Ve, \xA1esos pirobos viene pa' ac\xE1 huev\xF3n!"
     _delayBeforePlay: 0
     _waitMode: 0
@@ -1005,7 +1005,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 2044580420}
-    _clip: {fileID: 8300000, guid: 0bfd649598afd72438a8597b7cff5cf3, type: 3}
+    _clip: {fileID: 8300000, guid: 35c697bd4286aa541bdea27ae1a6d374, type: 3}
     _subtitle: "(Secuestrador 1) \xA1Quieto, quieto gonorrea o se lo estallo!"
     _delayBeforePlay: 1
     _waitMode: 0
@@ -1015,7 +1015,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 939502165}
-    _clip: {fileID: 8300000, guid: 51669abd568ad044f9acf50f2fb3d269, type: 3}
+    _clip: {fileID: 8300000, guid: 5a3a361999cd67146be21c41b558b037, type: 3}
     _subtitle: "(Jugador) S\xED mano, ya, todo bien... sapo hijue... todo bien, todo
       bien. \n(Secuestrador 1) C\xE1llese, c\xE1llese pirobo, ya calle... shhh chito,
       chito, chito pirobo, o se lo estallo pirobo. Estoy re loco \xF1ero, estoy re
@@ -1027,8 +1027,8 @@ MonoBehaviour:
     _onStepFinished:
       m_PersistentCalls:
         m_Calls: []
-  - _source: {fileID: 939502165}
-    _clip: {fileID: 8300000, guid: bb538e4fadd523a4595a45b57d03b5e6, type: 3}
+  - _source: {fileID: 126576183}
+    _clip: {fileID: 8300000, guid: 4b718df82d3d3a94eaea9c4fef662bd3, type: 3}
     _subtitle: "(Secuestrador 2) \xA1H\xE1gale r\xE1pido, manito, pirobo, mu\xE9valo
       a ver! "
     _delayBeforePlay: 2
@@ -1202,7 +1202,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 494f1e312254ca943a780f743aa44a7f, type: 3}
+  m_Resource: {fileID: 8300000, guid: ed4d18338c32e91419ad9d1f36f22028, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1686,7 +1686,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 871d4dee7b3cdfc46880f0f5fb9c6dad, type: 3}
+  m_Resource: {fileID: 8300000, guid: dfd432a0683efd5439685a3c256a1d30, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2453,7 +2453,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 6adb4b0c2324d0b409cc3a132c2d674e, type: 3}
+  m_Resource: {fileID: 8300000, guid: 23731346ef3f880408b0685281b0cce6, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.894
   m_Pitch: 0.84
@@ -2582,7 +2582,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 1f803bb3abf70ae4db489daca5a5806d, type: 3}
+  m_Resource: {fileID: 8300000, guid: e8ffe2dd0a93cdd48abbbd605159fe9e, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2823,7 +2823,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 20c503275ef6480409636777935c339e, type: 3}
+  m_Resource: {fileID: 8300000, guid: d5b9f5fd1cc3a9a4e916fd87f7b6f7ed, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2952,7 +2952,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 6707903642912775197, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: e2f54279e356cb24b950b02dd0a2a1a8, type: 3}
+  m_Resource: {fileID: 8300000, guid: 5ae33eb6740b2ab46aea9d2de3c15a8c, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3183,7 +3183,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 2db3ad9d44dfe4346bb4a119c80fbda5, type: 3}
+  m_Resource: {fileID: 8300000, guid: 7bd5c0a64f7370044916216d28b793a5, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.808
   m_Pitch: 1
@@ -3312,7 +3312,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 6707903642912775197, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: cfb68782250b02f4281a83111ba4b137, type: 3}
+  m_Resource: {fileID: 8300000, guid: 325e18ffdc717f845b651f8c205832d1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.925
   m_Pitch: 1
@@ -3441,7 +3441,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  m_Resource: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -3570,7 +3570,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: a05592ed535999449b9ce6dcd66e36ce, type: 3}
+  m_Resource: {fileID: 8300000, guid: 6e76488610650de4bbd3c631c1529788, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.9
   m_Pitch: 1
@@ -3887,7 +3887,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 0e72f92d35bda0249b2299f48134b910, type: 3}
+  m_Resource: {fileID: 8300000, guid: 1b0b576c33eb2f6438a52c7899bb0221, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -4016,7 +4016,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 8d359240af6cb294b92d64766aabf715, type: 3}
+  m_Resource: {fileID: 8300000, guid: 5b12b97bd31fb8c4283c042a710d5e50, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.9
   m_Pitch: 1
@@ -4145,7 +4145,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 6d9734c0672a1974580e32a999dfdd96, type: 3}
+  m_Resource: {fileID: 8300000, guid: bc10113fe59fcaf4cb8d702f909569ce, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1.01

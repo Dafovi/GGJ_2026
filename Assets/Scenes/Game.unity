@@ -822,7 +822,7 @@ MonoBehaviour:
   _signalBus: {fileID: 348302634}
   _steps:
   - _source: {fileID: 1407908544}
-    _clip: {fileID: 8300000, guid: 99290bc6679416547904da79a490d5b1, type: 3}
+    _clip: {fileID: 8300000, guid: 982a0d9fd2c52874fbed18facab03a05, type: 3}
     _subtitle: 
     _delayBeforePlay: 0
     _waitMode: 0
@@ -844,7 +844,7 @@ MonoBehaviour:
             m_BoolArgument: 1
           m_CallState: 2
   - _source: {fileID: 1521787816}
-    _clip: {fileID: 8300000, guid: 5a9927a46eac2bd4caac216a6e6f0e7f, type: 3}
+    _clip: {fileID: 8300000, guid: 93a05a4dda366244f940aa83c46fc0a0, type: 3}
     _subtitle: "(Secuestrador 1)  \xBFEse man ya despert\xF3 o qu\xE9?"
     _delayBeforePlay: 1
     _waitMode: 0
@@ -854,7 +854,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 518067359}
-    _clip: {fileID: 8300000, guid: 81025665ac6c934419128e578a2755ee, type: 3}
+    _clip: {fileID: 8300000, guid: d08e06dcb2be75d4386f2b69d173eec9, type: 3}
     _subtitle: "(Secuestrador 2) D\xE9jelo ah\xED, luego miramos."
     _delayBeforePlay: 0.5
     _waitMode: 0
@@ -884,7 +884,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1521787816}
-    _clip: {fileID: 8300000, guid: 80b2499239288b34cb5d2889dfff216b, type: 3}
+    _clip: {fileID: 8300000, guid: 9bab221c614f79347a4f293de354ae02, type: 3}
     _subtitle: "(Secuestrador 1) \xA1Oiga, hijo de la gran puta! Tenemos a su gente,
       \xA1malparido perro hijueputa!."
     _delayBeforePlay: 0
@@ -895,8 +895,8 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 518067359}
-    _clip: {fileID: 8300000, guid: 4c0e9437d6924904f8402c22b6ad46f6, type: 3}
-    _subtitle: "(Secuestrador 2) Nosotros ya sSabemos qui\xE9n es usted, malparidoto,
+    _clip: {fileID: 8300000, guid: e0145506fd701c046ba53fd88a7d5ef3, type: 3}
+    _subtitle: "(Secuestrador 2) Nosotros ya sabemos qui\xE9n es usted, malparidito,
       Pase la plata ya, la plata pero en \"fa\" pirobo."
     _delayBeforePlay: 0.5
     _waitMode: 0
@@ -906,7 +906,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1521787816}
-    _clip: {fileID: 8300000, guid: 6825d463d1746f543bf56b8a799bb8f3, type: 3}
+    _clip: {fileID: 8300000, guid: feb293b5274b5ef49a4d66ee9ac36ea3, type: 3}
     _subtitle: "(Secuestrador 1) \xA1No se haga el re marica!, pirobo... no me haga
       perder el tiempo"
     _delayBeforePlay: 1
@@ -917,7 +917,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1521787816}
-    _clip: {fileID: 8300000, guid: b37ec8e782ec4fe4cb157a43329e8839, type: 3}
+    _clip: {fileID: 8300000, guid: 703369d3aa9506b46bca38d6b870186a, type: 3}
     _subtitle: "(Secuestrador 1) Si no manda la plata, este man no amanece, \xA1oy\xF3!"
     _delayBeforePlay: 1
     _waitMode: 0
@@ -927,7 +927,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 518067359}
-    _clip: {fileID: 8300000, guid: c58f5d637b7ff5c498b479dbae8f513d, type: 3}
+    _clip: {fileID: 8300000, guid: b3a247d2c3eeb924694e5035e965a6c9, type: 3}
     _subtitle: "(Secuestrador 2) Oe pirobo, tiene una hora, malparido; o lo picamos,
       \xBFoy\xF3?"
     _delayBeforePlay: 1
@@ -938,7 +938,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 77794185}
-    _clip: {fileID: 8300000, guid: 468afdf6a78a48848a8c03eeb040510c, type: 3}
+    _clip: {fileID: 8300000, guid: bd96386cd3a32524596c0d3c802943c2, type: 3}
     _subtitle: 
     _delayBeforePlay: 1
     _waitMode: 2
@@ -1363,7 +1363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioDoorController
   _audioSource: {fileID: 105902466}
-  _openClip: {fileID: 8300000, guid: f0bf256acf97d4f45aa618a4dfaf4cbe, type: 3}
+  _openClip: {fileID: 8300000, guid: af77019d0664f004985a886cc96835c5, type: 3}
   _closeClip: {fileID: 0}
   _physicalCollider: {fileID: 105902463}
   _portal: {fileID: 316031071}
@@ -1421,7 +1421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: c855a5199b42a734ba1dbea543373954, type: 3}
+  _hitSound: {fileID: 8300000, guid: df385ba084889a746911bc9319ae87b2, type: 3}
 --- !u!1 &159022791
 GameObject:
   m_ObjectHideFlags: 0
@@ -1503,7 +1503,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: -5570613017881374068, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: bd465d63d03f06c40bf624ffbe2b2ee3, type: 3}
+  m_Resource: {fileID: 8300000, guid: 46dadc7af56cf584a8f2de27d4a7e8e1, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -1748,7 +1748,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 2055985322079569618, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 2741e1d25713ec844aa819560f740a87, type: 3}
+  m_Resource: {fileID: 8300000, guid: c4b2e2947e8dd1743854967c3419c696, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -2038,7 +2038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &265809850
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2191,7 +2191,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 02fdada69effdd141be6a231053021d5, type: 3}
+      objectReference: {fileID: 8300000, guid: f70360e5f1275b44b83d4c0a68aec779, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2250,7 +2250,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &288681699
 AudioSource:
   m_ObjectHideFlags: 0
@@ -2827,7 +2827,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 02fdada69effdd141be6a231053021d5, type: 3}
+      objectReference: {fileID: 8300000, guid: f70360e5f1275b44b83d4c0a68aec779, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2893,7 +2893,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 02fdada69effdd141be6a231053021d5, type: 3}
+      objectReference: {fileID: 8300000, guid: f70360e5f1275b44b83d4c0a68aec779, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3131,7 +3131,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioDoorController
   _audioSource: {fileID: 422035741}
-  _openClip: {fileID: 8300000, guid: f0bf256acf97d4f45aa618a4dfaf4cbe, type: 3}
+  _openClip: {fileID: 8300000, guid: af77019d0664f004985a886cc96835c5, type: 3}
   _closeClip: {fileID: 0}
   _physicalCollider: {fileID: 422035738}
   _portal: {fileID: 1794525752}
@@ -3189,7 +3189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: c855a5199b42a734ba1dbea543373954, type: 3}
+  _hitSound: {fileID: 8300000, guid: df385ba084889a746911bc9319ae87b2, type: 3}
 --- !u!1001 &424676419
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3245,7 +3245,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 965e1539956d23c4f806130f90496c65, type: 3}
+      objectReference: {fileID: 8300000, guid: b00903a1d6236d64ea86d47fcd93d065, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3311,7 +3311,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: ba8baaf7832c3bf4b9190beb97bd4d51, type: 3}
+      objectReference: {fileID: 8300000, guid: d55e568b146ad5646b57e63941dfa64d, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3622,7 +3622,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 7982f343250546a4d97183a16be4da5a, type: 3}
+      objectReference: {fileID: 8300000, guid: 35105b2f2e3fc1b40be7f8a088fd9766, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3681,7 +3681,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &547975738
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3912,7 +3912,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 7982f343250546a4d97183a16be4da5a, type: 3}
+      objectReference: {fileID: 8300000, guid: 35105b2f2e3fc1b40be7f8a088fd9766, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4149,7 +4149,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AudioDoorController
   _audioSource: {fileID: 599287208}
-  _openClip: {fileID: 8300000, guid: f0bf256acf97d4f45aa618a4dfaf4cbe, type: 3}
+  _openClip: {fileID: 8300000, guid: af77019d0664f004985a886cc96835c5, type: 3}
   _closeClip: {fileID: 0}
   _physicalCollider: {fileID: 599287205}
   _portal: {fileID: 1210140779}
@@ -4226,7 +4226,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 02fdada69effdd141be6a231053021d5, type: 3}
+      objectReference: {fileID: 8300000, guid: f70360e5f1275b44b83d4c0a68aec779, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4386,8 +4386,83 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f229c789ff320eb479d93cae1285f8c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReadTTS
-  _clip: {fileID: 8300000, guid: bf120e3008dd22349aad961a0e1f33e7, type: 3}
+  _clip: {fileID: 8300000, guid: 937242341c4bf7b46937ab53654d76ad, type: 3}
   _delayBeforeReading: 1.5
+--- !u!1 &622250172
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 622250173}
+  - component: {fileID: 622250175}
+  - component: {fileID: 622250174}
+  m_Layer: 5
+  m_Name: Black
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &622250173
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622250172}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1795249206}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &622250174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622250172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &622250175
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 622250172}
+  m_CullTransparentMesh: 1
 --- !u!1 &623553923
 GameObject:
   m_ObjectHideFlags: 0
@@ -4663,7 +4738,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &629218795
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4915,7 +4990,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 2055985322079569618, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: 258c5b1feb38f494889af1ddbb1464c6, type: 3}
+  m_Resource: {fileID: 8300000, guid: 27b9d2269c50e394790d957153281326, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -5205,7 +5280,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &765223446
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5358,7 +5433,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 965e1539956d23c4f806130f90496c65, type: 3}
+      objectReference: {fileID: 8300000, guid: b00903a1d6236d64ea86d47fcd93d065, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5495,7 +5570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &793593916
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5860,7 +5935,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &817998758
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6013,7 +6088,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 965e1539956d23c4f806130f90496c65, type: 3}
+      objectReference: {fileID: 8300000, guid: b00903a1d6236d64ea86d47fcd93d065, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6024,55 +6099,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2151810508168537264, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
   m_PrefabInstance: {fileID: 818131930}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &831879547
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 831879549}
-  - component: {fileID: 831879548}
-  m_Layer: 0
-  m_Name: Volume
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &831879548
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 831879547}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Unity.RenderPipelines.Core.Runtime::UnityEngine.Rendering.Volume
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: d0c200ae5d8dfc44ebc6f8ad47298b1c, type: 2}
---- !u!4 &831879549
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 831879547}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &849216212
 GameObject:
   m_ObjectHideFlags: 0
@@ -6301,7 +6327,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f229c789ff320eb479d93cae1285f8c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReadTTS
-  _clip: {fileID: 8300000, guid: b07f9e4d986c6664fa6d6aa897248519, type: 3}
+  _clip: {fileID: 8300000, guid: 7d9a91dc35483fb4a83e8d8f24869088, type: 3}
   _delayBeforeReading: 0.5
 --- !u!1 &879043984
 GameObject:
@@ -6429,7 +6455,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &879043990
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6669,7 +6695,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: ba8baaf7832c3bf4b9190beb97bd4d51, type: 3}
+      objectReference: {fileID: 8300000, guid: d55e568b146ad5646b57e63941dfa64d, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6774,7 +6800,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &934919914
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7005,7 +7031,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 965e1539956d23c4f806130f90496c65, type: 3}
+      objectReference: {fileID: 8300000, guid: b00903a1d6236d64ea86d47fcd93d065, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7071,7 +7097,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 965e1539956d23c4f806130f90496c65, type: 3}
+      objectReference: {fileID: 8300000, guid: b00903a1d6236d64ea86d47fcd93d065, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7137,7 +7163,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 7982f343250546a4d97183a16be4da5a, type: 3}
+      objectReference: {fileID: 8300000, guid: 35105b2f2e3fc1b40be7f8a088fd9766, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7352,7 +7378,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 2055985322079569618, guid: 3612becb661535c42aeb49a4c337976f, type: 2}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 8300000, guid: cc1bd08318f2dd144b70b48f237c5920, type: 3}
+  m_Resource: {fileID: 8300000, guid: 4e24e830941eea04e9453569bd25eb34, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -8037,7 +8063,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &1100320962
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8190,7 +8216,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 965e1539956d23c4f806130f90496c65, type: 3}
+      objectReference: {fileID: 8300000, guid: b00903a1d6236d64ea86d47fcd93d065, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8327,7 +8353,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &1146080591
 AudioSource:
   m_ObjectHideFlags: 0
@@ -8472,7 +8498,7 @@ MonoBehaviour:
   _signalBus: {fileID: 348302634}
   _steps:
   - _source: {fileID: 518067359}
-    _clip: {fileID: 8300000, guid: 0e8b3aa46aba36a4a99aa875b7cc446c, type: 3}
+    _clip: {fileID: 8300000, guid: 306843f2634ff194491644f9e2f43d4a, type: 3}
     _subtitle: "(Secuestrador 2) \xD1ero, est\xE1 haciendo severo fr\xEDo, sangre.
       Cierre esa mierda, huev\xF3n."
     _delayBeforePlay: 1.5
@@ -8483,7 +8509,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1521787816}
-    _clip: {fileID: 8300000, guid: b5d78240c6b82bf4fb18c3cc9d2ef360, type: 3}
+    _clip: {fileID: 8300000, guid: 9587d544226e25944b1c4ffc612f302b, type: 3}
     _subtitle: "(Secuestrador 1) \xA1Qu\xE9 va, pirobo! Yo tengo severa calor, ahorita
       cierra esa mierda, pirobo. "
     _delayBeforePlay: 0.5
@@ -8588,7 +8614,7 @@ MonoBehaviour:
   _signalBus: {fileID: 348302634}
   _steps:
   - _source: {fileID: 518067359}
-    _clip: {fileID: 8300000, guid: 446258a664eca1d41a5a7665b137af8a, type: 3}
+    _clip: {fileID: 8300000, guid: 34d34fd6156b13e42b25eeb4edecddca, type: 3}
     _subtitle: "(Secuestrador 2) \xD1ero, \xF1ero, \xBFEscuch\xF3 eso? Ese pirobo
       se movi\xF3, huev\xF3n."
     _delayBeforePlay: 1.5
@@ -8599,7 +8625,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1521787816}
-    _clip: {fileID: 8300000, guid: 14d1f7daf7092a8458bd3399a2d052ce, type: 3}
+    _clip: {fileID: 8300000, guid: ead5849067b0b9f47a6515999f88062e, type: 3}
     _subtitle: "(Secuestrador 1) Qu\xE9 va, eso fue el piso huev\xF3n, todo bien."
     _delayBeforePlay: 1.5
     _waitMode: 0
@@ -8609,7 +8635,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1521787816}
-    _clip: {fileID: 8300000, guid: 7a4cdc61311ff264eb54d12ef7db3200, type: 3}
+    _clip: {fileID: 8300000, guid: 090c7ba9eca859940a73cb9f9313bf25, type: 3}
     _subtitle: "(Secuestrador 1) Ah, este pirobo me tiene pensativo huev\xF3n, \xBFSabe
       qu\xE9? "
     _delayBeforePlay: 5
@@ -8620,7 +8646,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 77794185}
-    _clip: {fileID: 8300000, guid: bd465d63d03f06c40bf624ffbe2b2ee3, type: 3}
+    _clip: {fileID: 8300000, guid: 46dadc7af56cf584a8f2de27d4a7e8e1, type: 3}
     _subtitle: 
     _delayBeforePlay: 0
     _waitMode: 0
@@ -8630,7 +8656,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1521787816}
-    _clip: {fileID: 8300000, guid: cbc79e755a66beb4fa8ff07e208936c3, type: 3}
+    _clip: {fileID: 8300000, guid: be9630fadc5e6af4985d8a193fbd86fa, type: 3}
     _subtitle: "(Secuestrador 1) \xA1Hijo de perra, qu\xE9dese quieto, huev\xF3n!
       \xBFPirobo es que no entiende o qu\xE9? Malparido, hijueputa, qu\xE9dese quieto."
     _delayBeforePlay: 0
@@ -8641,7 +8667,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 518067359}
-    _clip: {fileID: 8300000, guid: 81025665ac6c934419128e578a2755ee, type: 3}
+    _clip: {fileID: 8300000, guid: d08e06dcb2be75d4386f2b69d173eec9, type: 3}
     _subtitle: "(Secuestrador 2) D\xE9jelo ah\xED, ahorita miramos; todo bien."
     _delayBeforePlay: 0
     _waitMode: 1
@@ -8722,7 +8748,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &1274035671
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9024,7 +9050,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &1353992558
 AudioSource:
   m_ObjectHideFlags: 0
@@ -9177,7 +9203,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: ba8baaf7832c3bf4b9190beb97bd4d51, type: 3}
+      objectReference: {fileID: 8300000, guid: d55e568b146ad5646b57e63941dfa64d, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9365,7 +9391,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 704
   _hitColor: {r: 0.4056604, g: 0.2009167, b: 0.26632088, a: 0.5254902}
-  _hit: {fileID: 8300000, guid: e20f289c42bd57e419441cb69062cfc2, type: 3}
+  _hit: {fileID: 8300000, guid: 4fc11c36788fe474e880f70e13f5e896, type: 3}
 --- !u!114 &1407908543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9381,15 +9407,15 @@ MonoBehaviour:
   _breathingSource: {fileID: 1466030361}
   _dragSource: {fileID: 1609630362}
   _effortSource: {fileID: 1798494553}
-  _breathingLoop: {fileID: 8300000, guid: adad8bbea204d9f43ae99ef191982769, type: 3}
-  _dragLoopA: {fileID: 8300000, guid: f37b2ccf88b1dbf4cbbd9775b980c83f, type: 3}
-  _dragLoopB: {fileID: 8300000, guid: 49356f9e076e55a458fc5ecf9a75d406, type: 3}
+  _breathingLoop: {fileID: 8300000, guid: 11ce3e54019dedc4e8481e3889945e15, type: 3}
+  _dragLoopA: {fileID: 8300000, guid: 5f7f9b513e24c344686e0d3c1c790cb9, type: 3}
+  _dragLoopB: {fileID: 8300000, guid: 9d349ba50d56fd74898a2ebab4273d23, type: 3}
   _dragAccentClips:
-  - {fileID: 8300000, guid: f37b2ccf88b1dbf4cbbd9775b980c83f, type: 3}
-  - {fileID: 8300000, guid: 49356f9e076e55a458fc5ecf9a75d406, type: 3}
+  - {fileID: 8300000, guid: 5f7f9b513e24c344686e0d3c1c790cb9, type: 3}
+  - {fileID: 8300000, guid: 9d349ba50d56fd74898a2ebab4273d23, type: 3}
   _pantClips: []
   _interactEffortClips:
-  - {fileID: 8300000, guid: 4cf9b0921dc434d41b4d44234da40e90, type: 3}
+  - {fileID: 8300000, guid: 679a82860e3b7c24daee3f1c4b4120f7, type: 3}
   _moveThreshold: 0.05
   _dragVolume: 0.35
   _dragFadeSpeed: 10
@@ -9625,7 +9651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &1420957171
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10034,7 +10060,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 02fdada69effdd141be6a231053021d5, type: 3}
+      objectReference: {fileID: 8300000, guid: f70360e5f1275b44b83d4c0a68aec779, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10544,7 +10570,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &1605092866
 AudioSource:
   m_ObjectHideFlags: 0
@@ -10818,7 +10844,7 @@ MonoBehaviour:
   _signalBus: {fileID: 348302634}
   _steps:
   - _source: {fileID: 1969122345}
-    _clip: {fileID: 8300000, guid: cdd2c597994326b4584d718805c989c7, type: 3}
+    _clip: {fileID: 8300000, guid: 8e8b2e2165cb6b041a9ca48eb74da418, type: 3}
     _subtitle: "(Secuestrador 1) Ah, este hijueputica, qu\xE9dese quieto, pirobo,
       \xA1Ya! "
     _delayBeforePlay: 0.5
@@ -10853,7 +10879,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - _source: {fileID: 1407908544}
-    _clip: {fileID: 8300000, guid: b1b3c8d04df6ef24bb8fe3a5965e89a0, type: 3}
+    _clip: {fileID: 8300000, guid: 0e7d366010cb4f041b6c80db31b34f38, type: 3}
     _subtitle: 
     _delayBeforePlay: 0
     _waitMode: 0
@@ -10863,7 +10889,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 2093343884}
-    _clip: {fileID: 8300000, guid: 6757c22b333efa248a95bcaa053aa390, type: 3}
+    _clip: {fileID: 8300000, guid: e651495bdb417c54ea0efd67646adb6c, type: 3}
     _subtitle: "(Secuestrador 2) Nah, ese pirobo est\xE1 re tostado, huev\xF3n; pillelo,
       huev\xF3n, ni se mueve ese malparido. "
     _delayBeforePlay: 0
@@ -10890,7 +10916,7 @@ MonoBehaviour:
           m_MethodName: PlayOneShot
           m_Mode: 2
           m_Arguments:
-            m_ObjectArgument: {fileID: 8300000, guid: 20c503275ef6480409636777935c339e, type: 3}
+            m_ObjectArgument: {fileID: 8300000, guid: d5b9f5fd1cc3a9a4e916fd87f7b6f7ed, type: 3}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
@@ -10952,7 +10978,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 965e1539956d23c4f806130f90496c65, type: 3}
+      objectReference: {fileID: 8300000, guid: b00903a1d6236d64ea86d47fcd93d065, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11175,6 +11201,7 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 622250173}
   - {fileID: 623553924}
   - {fileID: 907386588}
   m_Father: {fileID: 0}
@@ -11368,7 +11395,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 02fdada69effdd141be6a231053021d5, type: 3}
+      objectReference: {fileID: 8300000, guid: f70360e5f1275b44b83d4c0a68aec779, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11505,7 +11532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &1830584609
 AudioSource:
   m_ObjectHideFlags: 0
@@ -11658,7 +11685,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 02fdada69effdd141be6a231053021d5, type: 3}
+      objectReference: {fileID: 8300000, guid: f70360e5f1275b44b83d4c0a68aec779, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11795,7 +11822,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &1858901960
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12042,7 +12069,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f229c789ff320eb479d93cae1285f8c9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReadTTS
-  _clip: {fileID: 8300000, guid: 522a07668dba7d04f9ed4164311cb7b1, type: 3}
+  _clip: {fileID: 8300000, guid: 33bfb8d377e8f5d4d84b9ac121a3f733, type: 3}
   _delayBeforeReading: 0.5
 --- !u!1 &1941308657
 GameObject:
@@ -12206,7 +12233,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &1960130094
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12604,7 +12631,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 965e1539956d23c4f806130f90496c65, type: 3}
+      objectReference: {fileID: 8300000, guid: b00903a1d6236d64ea86d47fcd93d065, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12772,7 +12799,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 965e1539956d23c4f806130f90496c65, type: 3}
+      objectReference: {fileID: 8300000, guid: b00903a1d6236d64ea86d47fcd93d065, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12838,7 +12865,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: ba8baaf7832c3bf4b9190beb97bd4d51, type: 3}
+      objectReference: {fileID: 8300000, guid: d55e568b146ad5646b57e63941dfa64d, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12896,7 +12923,7 @@ MonoBehaviour:
   _signalBus: {fileID: 348302634}
   _steps:
   - _source: {fileID: 77794185}
-    _clip: {fileID: 8300000, guid: b2436546f0d6f4344a4d22e9316d5458, type: 3}
+    _clip: {fileID: 8300000, guid: 5a5f93ca21fd4404287b98371bd1dcfa, type: 3}
     _subtitle: 
     _delayBeforePlay: 0
     _waitMode: 1
@@ -12906,7 +12933,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1521787816}
-    _clip: {fileID: 8300000, guid: 776fcc43954363048beeab175087daee, type: 3}
+    _clip: {fileID: 8300000, guid: 114189a39ae404a4ebd555b7c41aa769, type: 3}
     _subtitle: (Secuestrador 1) Bueno hijo de perra, no me haga perder el tiempo,
       pirobo. La plata ya, malparido, la plata ya o se lo estallo, hijo de perra.
     _delayBeforePlay: 0
@@ -12917,7 +12944,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1521787816}
-    _clip: {fileID: 8300000, guid: 3dfd24c1fbde7684bb0a7934cc162cb2, type: 3}
+    _clip: {fileID: 8300000, guid: b24e272e9b7cb1e4cb04e480668e66bf, type: 3}
     _subtitle: "(Secuestrador 1) Si no me lo bajo, huev\xF3n, real que me lo bajo,
       estoy muy loco, hijueputa, no copeo es de ni puta mierda."
     _delayBeforePlay: 1
@@ -12928,7 +12955,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 77794185}
-    _clip: {fileID: 8300000, guid: 468afdf6a78a48848a8c03eeb040510c, type: 3}
+    _clip: {fileID: 8300000, guid: bd96386cd3a32524596c0d3c802943c2, type: 3}
     _subtitle: 
     _delayBeforePlay: 1
     _waitMode: 1
@@ -12950,7 +12977,7 @@ MonoBehaviour:
             m_BoolArgument: 1
           m_CallState: 2
   - _source: {fileID: 518067359}
-    _clip: {fileID: 8300000, guid: 693b42dcffe1a17418325eaca6c72bcd, type: 3}
+    _clip: {fileID: 8300000, guid: fdb690b379609d444865ee7cfc9c76fe, type: 3}
     _subtitle: "(Secuestrador 2) Sangre oiga eso, \xA1Sangre!... Sangre, eso es una
       sirena \xBFS\xED o qu\xE9?... \xD1ero, d\xEDgame la verdad huev\xF3n, d\xEDgame
       la verdad."
@@ -12962,7 +12989,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 1521787816}
-    _clip: {fileID: 8300000, guid: ee7c90cfcb626ad4c97f6f3355e96f34, type: 3}
+    _clip: {fileID: 8300000, guid: 6bb597be06c091747ac1e1720739d3aa, type: 3}
     _subtitle: "(Secuestrador 1) Todo bien, huev\xF3n, que eso no es pa' nosotros,
       huev\xF3n, rel\xE1jese huev\xF3n, rel\xE1jese."
     _delayBeforePlay: 0.5
@@ -12973,7 +13000,7 @@ MonoBehaviour:
       m_PersistentCalls:
         m_Calls: []
   - _source: {fileID: 518067359}
-    _clip: {fileID: 8300000, guid: 76ed819ccc0ff734aa53c9309aaf5720, type: 3}
+    _clip: {fileID: 8300000, guid: a9e14deea56a4464a8014141a3187c57, type: 3}
     _subtitle: "(Secuestrador 2) \xD1ero, real, real, pare bolas, pare bolas..."
     _delayBeforePlay: 2
     _waitMode: 2
@@ -13054,7 +13081,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20225117c2ec7b45aa2a527bbe86007, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectHitable
-  _hitSound: {fileID: 8300000, guid: 553b8326c38f2c44d80e8b339288639e, type: 3}
+  _hitSound: {fileID: 8300000, guid: 1473263b258531d418cd3b8bbbc22738, type: 3}
 --- !u!82 &2057582296
 AudioSource:
   m_ObjectHideFlags: 0
@@ -13689,7 +13716,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 965e1539956d23c4f806130f90496c65, type: 3}
+      objectReference: {fileID: 8300000, guid: b00903a1d6236d64ea86d47fcd93d065, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13755,7 +13782,7 @@ PrefabInstance:
     - target: {fileID: 8943456547616550967, guid: f1d7a7b7f0ce6c6448767d8f3fcefd54, type: 3}
       propertyPath: _hitSound
       value: 
-      objectReference: {fileID: 8300000, guid: 02fdada69effdd141be6a231053021d5, type: 3}
+      objectReference: {fileID: 8300000, guid: f70360e5f1275b44b83d4c0a68aec779, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13829,7 +13856,6 @@ SceneRoots:
   - {fileID: 1407908539}
   - {fileID: 1669429601}
   - {fileID: 1941308658}
-  - {fileID: 831879549}
   - {fileID: 1795249206}
   - {fileID: 1006305780}
   - {fileID: 931819151}
