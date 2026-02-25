@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8988494335100817525}
   - component: {fileID: 8229269627422781083}
   - component: {fileID: 3999350194282003826}
+  - component: {fileID: 3246500883088386136}
   m_Layer: 0
   m_Name: DialogueManager
   m_TagString: Untagged
@@ -93,7 +94,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 289411908867855410}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
   m_Name: 
@@ -116,6 +117,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueManager
   _text: {fileID: 5103642097150356534}
+--- !u!225 &3246500883088386136
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 289411908867855410}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &2608466722425533513
 GameObject:
   m_ObjectHideFlags: 0
