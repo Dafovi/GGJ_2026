@@ -18,6 +18,9 @@ public sealed class AttackInteractor : MonoBehaviour
     [SerializeField]
     private PlayerFoleyController _playerFoley;
 
+    [SerializeField]
+    private MobileButtonsInput _mobileInput;
+
     private void Awake()
     {
         if (_camera == null)
@@ -36,7 +39,22 @@ public sealed class AttackInteractor : MonoBehaviour
         _attack.action.Disable();
     }
 
+    private void Update()
+    {
+#if (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
+    return;
+#endif
+
+        if (_mobileInput.ConsumeInteractPressed())
+            TryInteract();
+    }
+
     private void OnAttackPerformed(InputAction.CallbackContext context)
+    {
+        TryInteract();
+    }
+
+    private void TryInteract()
     {
         if (_camera == null) return;
 

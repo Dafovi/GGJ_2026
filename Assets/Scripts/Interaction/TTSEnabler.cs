@@ -83,7 +83,7 @@ public sealed class TTSEnabler : MonoBehaviour
         }
     }
 
-    private void Resolve(bool useTts)
+    public void Resolve(bool useTts)
     {
         if (_resolved) return;
         _resolved = true;

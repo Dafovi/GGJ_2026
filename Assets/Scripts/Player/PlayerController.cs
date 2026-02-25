@@ -11,6 +11,9 @@ public sealed class PlayerController : MonoBehaviour
     private InputActionReference _look;
 
     [SerializeField]
+    private MobileButtonsInput _mobileInput;
+
+    [SerializeField]
     private Transform _cameraRoot;
 
     [SerializeField]
@@ -48,22 +51,38 @@ public sealed class PlayerController : MonoBehaviour
 
     private void HandleMovement()
     {
-        Vector2 input = _move.action.ReadValue<Vector2>();
+        float inputY = 0f;
 
-        Vector3 move =
-            transform.right * input.x +
-            transform.forward * input.y;
+#if (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
+        if (_mobileInput != null)
+            inputY = _mobileInput.GetMoveY();
+#else
+        inputY = _move.action.ReadValue<Vector2>().y;
+#endif
+
+        Vector3 move = transform.forward * inputY;
 
         _controller.Move(move * _moveSpeed * Time.deltaTime);
     }
 
     private void HandleLook()
     {
-        Vector2 look = _look.action.ReadValue<Vector2>();
+        float yawDelta = 0f;
 
-        float yaw = look.x * _rotationSpeed * Time.deltaTime;
-        _yRotation += yaw;
+#if (UNITY_ANDROID || UNITY_IOS) && !UNITY_EDITOR
+        yawDelta = _mobileInput.GetYawDelta();
+#else
+        yawDelta = _look.action.ReadValue<Vector2>().x * _rotationSpeed * Time.deltaTime;
+#endif
+
+        _yRotation += yawDelta;
 
         transform.rotation = Quaternion.Euler(0f, _yRotation, 0f);
+    }
+
+    public bool ConsumeMobileInteract()
+    {
+        if (_mobileInput == null) return false;
+        return _mobileInput.ConsumeInteractPressed();
     }
 }
